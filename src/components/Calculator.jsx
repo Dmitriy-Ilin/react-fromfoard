@@ -16,7 +16,7 @@ const Calculator = ({classBlur}) => {
                             всего мира и получать их в России
                         </p>
                     </div>
-                    <img className='calculator-left__img' src='main.png' alt='box' loading='lazy'/>
+                    <img className='calculator-left__img' src='./main.png' alt='box' loading='lazy'/>
                 </div>
                 <div className={`calculator-right `}>
                     <form className='calculator-right__form'>

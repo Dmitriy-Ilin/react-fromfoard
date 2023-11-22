@@ -23,12 +23,12 @@ const Footer = () => {
             <div className='footer-wrapper'>
                 <div className='footer-item'>
                     <div className='footer-item-container'>
-                        <img className='footer-item__logo' src='footer.png' loading='lazy'/>
+                        <img className='footer-item__logo' src='./footer.png' loading='lazy'/>
                         <p className='footer-item__title'>FromBoard Delivery</p>
                     </div>
                     <p className='footer-item__rights'>
                         2023 © Ни одно право не защищено, копируйте сколько влезет
-                        <img className='footer-item__img' src='Quotes.png'/>
+                        <img className='footer-item__img' src='./Quotes.png'/>
                     </p>
                 </div>
                 <div className='footer-item'>
