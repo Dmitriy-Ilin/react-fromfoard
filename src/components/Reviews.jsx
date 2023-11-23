@@ -4,6 +4,9 @@ import { Navigation } from 'swiper/modules';
 import { reviews } from '../mockData';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import left from '../assets/left.png'
+import right from '../assets/right.png'
+import quotes from '../assets/Quotes1.png'
 
 
 const Reviews = () => {
@@ -15,7 +18,7 @@ const Reviews = () => {
             <h3 className='reviews__title'>Отзывы</h3>
             <div className='reviews'>
                 <button onClick={() => swiperRef.current?.slidePrev()} className='reviews__left' >
-                    <img className='reviews__img' src='./src/assets/left.png'/>
+                    <img className='reviews__img' src={left}/>
                 </button>
                 <Swiper 
                     slidesPerView={1}
@@ -39,7 +42,7 @@ const Reviews = () => {
                                     <strong className='reviews-item__text'>{review.text}</strong>
                                     <div className='reviews-item-container'>
                                         <p className='reviews-item__author'>{review.name}</p>
-                                        <img className='reviews-item__quotes' src='./src/assets/Quotes1.png' alt='quotes' loading='lazy'/>
+                                        <img className='reviews-item__quotes' src={quotes} alt='quotes' loading='lazy'/>
                                     </div>   
                                 </div>
                             </SwiperSlide>
@@ -47,7 +50,7 @@ const Reviews = () => {
                     </div>
                 </Swiper>
                 <button onClick={() => swiperRef.current?.slideNext()} className='reviews__right ' >
-                    <img className='reviews__img' src='./src/assets/right.png'/>
+                    <img className='reviews__img' src={right}/>
                 </button>
             </div>
         </div>

@@ -28,6 +28,7 @@
 body {
     font: 400 20px/28px  Arial, 'Formular', Helvetica sans-serif;
     color: var(--gray-900);
+    overflow-x: hidden;
 }
 
 input {
@@ -1125,6 +1126,14 @@ ul li {
         line-height: 14px;
     }
 
+    .guarantee-wrapper {
+        gap: 80px;
+    }
+
+    .guarantee__btn {
+        margin-top: 100px;
+    }
+
     .footer-item__link {
         font-size: 14px;
     }
@@ -1172,10 +1181,6 @@ ul li {
         flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-
-    .guarantee__btn {
-        margin: 52px auto 0;
     }
 
     .question__title {

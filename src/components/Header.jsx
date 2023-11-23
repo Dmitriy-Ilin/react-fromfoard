@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
-import { Link, NavLink, Route, Routes } from 'react-router-dom'
-import Calculator from './Calculator'
-import Advantages from './Advantages'
-import Guarantee from './Guarantee'
-import Reviews from './Reviews'
+import logo from '../assets/logo.png'
+// import { Link, NavLink, Route, Routes } from 'react-router-dom'
+// import Calculator from './Calculator'
+// import Advantages from './Advantages'
+// import Guarantee from './Guarantee'
+// import Reviews from './Reviews'
 
 const Header = ({handleBurgerClick}) => {
  const [menuActive, setMenuActive] = useState(false);
@@ -14,7 +15,7 @@ const Header = ({handleBurgerClick}) => {
         <div className='container'>
             <div className='header-wrapper'>
                 <div className='header-left'>
-                    <img className='header-left__logo' src='./src/assets/logo.png' alt='logo' loading='lazy'/>
+                    <img className='header-left__logo' src={logo} alt='logo' loading='lazy'/>
                     <h1 className='header-left__title'>FromBoard Delivery</h1>
                 </div>
                 <div className='header-right'>
@@ -63,7 +64,7 @@ const Header = ({handleBurgerClick}) => {
         <div className='container'>
             <div className='header-wrapper'>
                 <div className='header-left'>
-                    <img className='header-left__logo' src='./src/assets/logo.png' alt='logo' loading='lazy'/>
+                    <img className='header-left__logo' src={logo} alt='logo' loading='lazy'/>
                     <h1 className='header-left__title'>FromBoard Delivery</h1>
                 </div>
                 <div className='header-right'>

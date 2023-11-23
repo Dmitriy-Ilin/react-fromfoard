@@ -1,4 +1,7 @@
 import React from 'react'
+import footer from '../assets/footer.png'
+import quotes from '../assets/Quotes.png'
+
 
 const Footer = () => {
   return (
@@ -23,12 +26,12 @@ const Footer = () => {
             <div className='footer-wrapper'>
                 <div className='footer-item'>
                     <div className='footer-item-container'>
-                        <img className='footer-item__logo' src='./src/assets/footer.png' loading='lazy'/>
+                        <img className='footer-item__logo' src={footer} loading='lazy'/>
                         <p className='footer-item__title'>FromBoard Delivery</p>
                     </div>
                     <p className='footer-item__rights'>
                         2023 © Ни одно право не защищено, копируйте сколько влезет
-                        <img className='footer-item__img' src='./src/assets/Quotes.png'/>
+                        <img className='footer-item__img' src={quotes}/>
                     </p>
                 </div>
                 <div className='footer-item'>
