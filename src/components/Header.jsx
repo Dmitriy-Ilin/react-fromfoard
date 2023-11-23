@@ -14,7 +14,7 @@ const Header = ({handleBurgerClick}) => {
         <div className='container'>
             <div className='header-wrapper'>
                 <div className='header-left'>
-                    <img className='header-left__logo' src='./logo.png' alt='logo' loading='lazy'/>
+                    <img className='header-left__logo' src='./src/assets/logo.png' alt='logo' loading='lazy'/>
                     <h1 className='header-left__title'>FromBoard Delivery</h1>
                 </div>
                 <div className='header-right'>
@@ -63,7 +63,7 @@ const Header = ({handleBurgerClick}) => {
         <div className='container'>
             <div className='header-wrapper'>
                 <div className='header-left'>
-                    <img className='header-left__logo' src='./logo.png' alt='logo' loading='lazy'/>
+                    <img className='header-left__logo' src='./src/assets/logo.png' alt='logo' loading='lazy'/>
                     <h1 className='header-left__title'>FromBoard Delivery</h1>
                 </div>
                 <div className='header-right'>

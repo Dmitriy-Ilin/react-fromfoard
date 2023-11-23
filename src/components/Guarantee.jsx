@@ -12,19 +12,19 @@ const Guarantee = () => {
             </p>
             <div className='guarantee-wrapper'>
                 <div className='guarantee-item'>
-                    <img className='./guarantee-item__img' src='./sertificate2.png' alt='guarantee' loading='lazy'/>
+                    <img className='./guarantee-item__img' src='./src/assets/sertificate2.png' alt='guarantee' loading='lazy'/>
                     <strong className='guarantee-item__text'>Свидетельство о регистрации в РФ</strong>
                 </div>
                 <div className='guarantee-item'>
-                    <img className='./guarantee-item__img' src='./sertificate1.png' alt='guarantee' loading='lazy'/>
+                    <img className='./guarantee-item__img' src='./src/assets/sertificate1.png' alt='guarantee' loading='lazy'/>
                     <strong className='guarantee-item__text'>Свидетельство о регистрации в США</strong>
                 </div>
                 <div className='guarantee-item'>
-                    <img className='./guarantee-item__img' src='./sertificate4.png' alt='guarantee' loading='lazy'/>
+                    <img className='./guarantee-item__img' src='./src/assets/sertificate4.png' alt='guarantee' loading='lazy'/>
                     <strong className='guarantee-item__text'>Свидетельство о регистрации в Китае</strong>
                 </div>
                 <div className='guarantee-item'>
-                    <img className='./guarantee-item__img' src='./sertificate3.png' alt='guarantee' loading='lazy'/>
+                    <img className='./guarantee-item__img' src='./src/assets/sertificate3.png' alt='guarantee' loading='lazy'/>
                     <strong className='guarantee-item__text'>Свидетельство о регистрации в Великобритании</strong>
                 </div>
             </div>

@@ -7,28 +7,28 @@ const Footer = () => {
             <div className='footer-item_responsive'>
                         <ul className='footer-item-links'>
                             <li className='footer-item__item'>
-                                <a className='footer-item__link' href='#'>Калькулятор</a>
+                                <a className='footer-item__link' href='#calculator'>Калькулятор</a>
                             </li>
                             <li className='footer-item__item'>
-                                <a className='footer-item__link' href='#'>О нас</a>
+                                <a className='footer-item__link' href='#advantages'>О нас</a>
                             </li>
                             <li className='footer-item__item'>
-                                <a className='footer-item__link' href='#'>Гарантии</a>
+                                <a className='footer-item__link' href='#guarantee'>Гарантии</a>
                             </li>
                             <li className='footer-item__item'>
-                                <a className='footer-item__link' href='#'>Отзывы</a>
+                                <a className='footer-item__link' href='#reviews'>Отзывы</a>
                             </li>
                         </ul>
                 </div>
             <div className='footer-wrapper'>
                 <div className='footer-item'>
                     <div className='footer-item-container'>
-                        <img className='footer-item__logo' src='./footer.png' loading='lazy'/>
+                        <img className='footer-item__logo' src='./src/assets/footer.png' loading='lazy'/>
                         <p className='footer-item__title'>FromBoard Delivery</p>
                     </div>
                     <p className='footer-item__rights'>
                         2023 © Ни одно право не защищено, копируйте сколько влезет
-                        <img className='footer-item__img' src='./Quotes.png'/>
+                        <img className='footer-item__img' src='./src/assets/Quotes.png'/>
                     </p>
                 </div>
                 <div className='footer-item'>

@@ -7,7 +7,7 @@ const Advantages = () => {
             <h2 className='advantages__title'>Наши преимущества</h2>
             <div className='advantages-wrapper'>
                 <div className='advantages-item'>
-                    <img className='advantages-item__img' src='./Group1.png' alt='advantages' loading='lazy'/>
+                    <img className='advantages-item__img' src='./src/assets/Group1.png' alt='advantages' loading='lazy'/>
                     <div className='advantages-item-container'>
                         <h3 className='advantages-item__title'>Растоможка груза</h3>
                         <p className='advantages-item__text'>
@@ -17,7 +17,7 @@ const Advantages = () => {
                     </div>             
                 </div>
                 <div className='advantages-item'>
-                    <img className='advantages-item__img' src='./Group7.png' alt='advantages' loading='lazy'/>
+                    <img className='advantages-item__img' src='./src/assets/Group7.png' alt='advantages' loading='lazy'/>
                     <div className='advantages-item-container'>
                         <h3 className='advantages-item__title'>Надёжная упаковка</h3>
                         <p className='advantages-item__text'>
@@ -28,7 +28,7 @@ const Advantages = () => {
                     </div>
                 </div>
                 <div className='advantages-item'>
-                    <img className='advantages-item__img' src='./Group8.png' alt='advantages' loading='lazy'/>
+                    <img className='advantages-item__img' src='./src/assets/Group8.png' alt='advantages' loading='lazy'/>
                     <div className='advantages-item-container'>
                         <h3 className='advantages-item__title'>Быстро и выгодно</h3>
                         <p className='advantages-item__text'>
@@ -38,7 +38,7 @@ const Advantages = () => {
                     </div>
                 </div>
                 <div className='advantages-item'>
-                    <img className='advantages-item__img' src='./Group4.png' alt='advantages' loading='lazy'/>
+                    <img className='advantages-item__img' src='./src/assets/Group4.png' alt='advantages' loading='lazy'/>
                     <div className='advantages-item-container'>     
                         <h3 className='advantages-item__title'>Удобный сервис</h3>
                         <p className='advantages-item__text'>
@@ -48,7 +48,7 @@ const Advantages = () => {
                     </div>
                 </div>
                 <div className='advantages-item'>
-                    <img className='advantages-item__img' src='./Group5.png' alt='advantages' loading='lazy'/>
+                    <img className='advantages-item__img' src='./src/assets/Group5.png' alt='advantages' loading='lazy'/>
                     <div className='advantages-item-container'>
                         <h3 className='advantages-item__title'>Прозрачность работы</h3>
                         <p className='advantages-item__text'>
@@ -58,7 +58,7 @@ const Advantages = () => {
                     </div>
                 </div>
                 <div className='advantages-item'>
-                    <img className='advantages-item__img' src='./Group6.png' alt='advantages' loading='lazy'/>
+                    <img className='advantages-item__img' src='./src/assets/Group6.png' alt='advantages' loading='lazy'/>
                     <div className='advantages-item-container'>
                         <h3 className='advantages-item__title'>Страхование груза</h3>
                         <p className='advantages-item__text'>
